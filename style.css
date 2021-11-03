@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.section {
+  background-image: url(image/background_section1.png);
+  background-size: cover;
+  height: 500px;
+}
+
+header {
+  background-image: url(image/header_bg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header nav {
+  font-family: "Gentium Book Basic", serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+header nav > div li {
+  list-style: none;
+}
+header nav > div li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+header nav > .nav-link {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav > .nav-link > .nav-logo {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+}
+header .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .title > h1 {
+  font-family: "Yeseva One", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  line-height: 130%;
+  color: white;
+  margin-top: 2em;
+  text-align: center;
+}
+header .title > img {
+  margin-top: 1em;
+}
+header .title > div {
+  margin: 2em 0em 6em 0em;
+  padding: 0em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  font-family: "Lato", sans-serif;
+}
+header .title > div > a {
+  text-decoration: none;
+  color: white;
+  padding: 1em 2em;
+  margin: 0em 1em;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+header .title > div > .btn-white {
+  background-color: rgba(255, 255, 255, 0.199);
+  border: 2px solid rgba(255, 255, 255, 0.329);
+}
+
+/*# sourceMappingURL=style.css.map */

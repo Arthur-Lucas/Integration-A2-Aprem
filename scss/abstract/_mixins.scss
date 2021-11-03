@@ -1,0 +1,19 @@
+@mixin font-h1{
+    font-family: 'Yeseva One', cursive;
+}
+
+@mixin font-h2{
+    font-family: 'Gentium Book Basic', serif;
+}
+
+@mixin font-p{
+    font-family: 'Lato', sans-serif;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
