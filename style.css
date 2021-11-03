@@ -51,7 +51,31 @@ table {
 .section {
   background-image: url(image/background_section1.png);
   background-size: cover;
-  height: 500px;
+  font-family: "Lato", sans-serif;
+}
+.section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0em 5em;
+}
+.section > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section > div > div h2 {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 30px;
+  color: #cc9900;
+}
+.section > div > div > * {
+  padding: 1em;
+}
+.section > div > div > p {
+  width: 30%;
+  text-align: center;
 }
 
 header {
