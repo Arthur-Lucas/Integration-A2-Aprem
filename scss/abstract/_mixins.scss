@@ -1,9 +1,11 @@
-@mixin font-h1{
+@mixin font-h2{
     font-family: 'Yeseva One', cursive;
+    color: #cc9900;
 }
 
-@mixin font-h2{
+@mixin font-nav{
     font-family: 'Gentium Book Basic', serif;
+    
 }
 
 @mixin font-p{
